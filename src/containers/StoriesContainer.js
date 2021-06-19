@@ -13,8 +13,8 @@ export const StoriesContainer = () => {
     return (<>
     <GlobalStyle/>
     <StoriesContainerWrapper data-test-id="stories-container">
-    <h1>Hacker News Stories</h1>
+        <h1>Hacker News Stories</h1>
        {storyIds.map(storyId => <Story key={storyId} storyId={storyId}/>)}
-       </StoriesContainerWrapper>
+    </StoriesContainerWrapper>
     </>);
 };
